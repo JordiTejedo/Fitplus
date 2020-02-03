@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="300dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:inputType="text|textCapWords"
+        android:hint="@string/name"
+        android:maxLines="1"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="10dp"
+        android:maxLength="35"/>
+
+    <EditText
+        android:id="@+id/last_name_et"
+        android:layout_width="300dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:inputType="text|textCapWords"
+        android:hint="@string/last_name"
+        android:maxLines="1"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="10dp"
+        android:maxLength="35"/>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="300dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:maxLines="1"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="10dp"
+        android:maxLength="50"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:maxLines="1"
+            android:background="@drawable/login_edittext"
+            android:layout_marginBottom="5dp"
+            android:maxLength="35"/>
+
+        <ImageView
+            android:id="@+id/info_iv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/icon_info"
+            android:layout_below="@id/password_et" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wrong_password"
+            android:layout_toRightOf="@+id/info_iv"
+            android:layout_below="@id/password_et"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/confirm_password_et"
+        android:layout_width="300dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"
+        android:maxLines="1"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="20dp"
+        android:maxLength="35"/>
+
+    <Button
+        android:id="@+id/resume_b"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/resume"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/login_button" />
+
+</LinearLayout>

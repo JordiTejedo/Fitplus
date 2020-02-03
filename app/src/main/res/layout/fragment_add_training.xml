@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jordi.fitplus.AddTrainingFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/title_et"
+        android:layout_width="300dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:inputType="text|textCapSentences"
+        android:hint="@string/title"
+        android:maxLines="1"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="10dp"
+        android:maxLength="50"/>
+
+    <TextView
+        android:id="@+id/trainer_tv"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:hint="@string/trainer"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/min_people_tv"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:hint="@string/minimal_assistance"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/login_edittext"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/max_people_tv"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:hint="@string/maximum_assistance"
+            android:background="@drawable/login_edittext"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/from_tv"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/training_start"
+        android:textSize="18sp"
+        android:background="@drawable/login_edittext"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/to_tv"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/training_end"
+        android:textSize="18sp"
+        android:background="@drawable/login_edittext"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/description_et"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/description"
+        android:gravity="top"
+        android:background="@drawable/login_edittext"
+        android:layout_marginBottom="20dp"
+        android:maxLength="150"
+        android:inputType="text|textCapSentences"/>
+
+    <Button
+        android:id="@+id/create_b"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="@drawable/login_button"
+        android:text="@string/publish"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

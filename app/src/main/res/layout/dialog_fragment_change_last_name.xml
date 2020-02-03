@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_margin="60dp">
+
+    <RelativeLayout
+        android:id="@+id/bodyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/change_last_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="34sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext"
+            android:maxLines="1"
+            android:inputType="text|textCapWords"
+            android:maxLength="35"
+            android:hint="@string/last_name"
+            android:focusedByDefault="true">
+        </EditText>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/bodyLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_b"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/cancel"
+            android:background="@drawable/cancel_button"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/change_b"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/change"
+            android:background="@drawable/login_button"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
