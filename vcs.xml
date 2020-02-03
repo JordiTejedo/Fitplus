@@ -1,0 +1,29 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="https://sensingcontrol.visualstudio.com/nAssist/_git/nassist.Android" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://sensingcontrol.visualstudio.com" />
+          <option name="userName" value="jordi.tejedo@sensingcontrol.com" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/firebase/firebase-login-demo-android.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://sensingcontrol.visualstudio.com/FoxGuardian/_git/FoxGuardian" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://sensingcontrol.visualstudio.com/FoxGuardian/_git/FoxGuardian%20Android" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/workspace" />
+  </component>
+</application>
