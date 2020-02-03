@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "422390722451",
+    "firebase_url": "https://fitplus-1e8cd.firebaseio.com",
+    "project_id": "fitplus-1e8cd",
+    "storage_bucket": "fitplus-1e8cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422390722451:android:538ac28d1df837aa",
+        "android_client_info": {
+          "package_name": "com.example.jordi.fitplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422390722451-46kpldab812994r82ogu5fpaj75298s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jordi.fitplus",
+            "certificate_hash": "1b0c8d06ea8a1d6408998548a7caef2a22e186ea"
+          }
+        },
+        {
+          "client_id": "422390722451-jflour42f8oce7e1jb5ia6c7ad0nvl90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3y6yrXomYhj5utC6WHviCK5WZ6cVE_vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422390722451-jflour42f8oce7e1jb5ia6c7ad0nvl90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

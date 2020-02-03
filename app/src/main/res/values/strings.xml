@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Fitplus</string>
+    <string name="login">Acceder</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="forgot_password"><u>¿Has olvidado tu contraseña?</u></string>
+    <string name="create_account"><u>¿No tienes cuenta de usuario?</u></string>
+    <string name="empty_name">Introduce tu nombre</string>
+    <string name="empty_last_name">Introduce tus apellidos</string>
+    <string name="empty_dni_nie">Introduce tu DNI o NIE</string>
+    <string name="wrong_dni_nie">El formato del DNI o NIE no es válido</string>
+    <string name="empty_phone">Introduce tu teléfono de contacto</string>
+    <string name="wrong_phone">El formato del teléfono no es válido</string>
+    <string name="empty_address">Introduce tu dirección</string>
+    <string name="empty_postal_code">Introduce tu código postal</string>
+    <string name="empty_email">Introduce tu email</string>
+    <string name="wrong_email">La dirección email no es correcta</string>
+    <string name="empty_password">Introduce una contraseña</string>
+    <string name="too_short_password">La contraseña debe contener al menos 6 carácteres</string>
+    <string name="password_no_match">La contraseña no coincide</string>
+    <string name="email">email</string>
+    <string name="Email">Email</string>
+    <string name="password">contraseña</string>
+    <string name="Password">Contraseña</string>
+    <string name="confirm_password">confirmar contraseña</string>
+    <string name="name">nombre</string>
+    <string name="Name">Nombre</string>
+    <string name="last_name">apellidos</string>
+    <string name="Last_Name">Apellidos</string>
+    <string name="telephone">teléfono</string>
+    <string name="Telephone">Teléfono</string>
+    <string name="address">dirección</string>
+    <string name="Address">Dirección</string>
+    <string name="postal_code">código postal</string>
+    <string name="Postal_Code">Código Postal</string>
+    <string name="dni_nie">DNI o NIE</string>
+    <string name="save">Guardar</string>
+    <string name="welcome_text">¡Bienvenid@ a la aplicación de reserva de horarios de Fitplus Center!</string>
+    <string name="resume">Continuar</string>
+    <string name="email_exist">Ya existe una cuenta con este email</string>
+    <string name="email_invalid">El email no es válido</string>
+    <string name="user_exist">El email</string>
+    <string name="end">Finalizar</string>
+    <string name="go_back">Atrás</string>
+    <string name="dni_nie_example">Ejemplo: 12345678A o A1234567B</string>
+    <string name="error_creating_user">Se ha producido un error al crear el usuario.</string>
+    <string name="error_signing_up_user">Se ha producido un error al identificar el usuario.</string>
+    <string name="accept">Aceptar</string>
+    <string name="send">Enviar</string>
+    <string name="calendar">Calendario</string>
+    <string name="reservations">Reservas</string>
+    <string name="history">Historial</string>
+    <string name="settings">Ajustes</string>
+    <string name="sign_off">Cerrar sesión</string>
+    <string name="forgotten_password_text">Introduce el email asociado a tu cuenta y te enviaremos</string>
+    <string name="wrong_password">La contraseña no es correcta</string>
+    <string name="not_found_email">Este email no está registrado</string>
+    <string name="connecting">Conectando...</string>
+    <string name="title">título</string>
+    <string name="trainer">monitor</string>
+    <string name="from">desde</string>
+    <string name="to">hasta</string>
+    <string name="description">descripción</string>
+    <string name="max">max</string>
+    <string name="min">min</string>
+    <string name="publish">Publicar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="training_start">inicio de entreno</string>
+    <string name="training_end">final de entreno</string>
+    <string name="minimal_assistance">asistencia mín.</string>
+    <string name="maximum_assistance">asistencia máx.</string>
+    <string name="empty_title">Introduce un título</string>
+    <string name="empty_trainer">Selecciona un monitor</string>
+    <string name="empty_min_people">Selecciona un mínimo de asistentes</string>
+    <string name="empty_max_people">Selecciona un máximo de asistentes</string>
+    <string name="wrong_min">El mínimo no puede ser mayor que el máximo de asistentes</string>
+    <string name="empty_from">Introduce una fecha de inicio</string>
+    <string name="empty_to">Introduce una fecha de final</string>
+    <string name="training_created">El entreno se ha publicado satisfactoriamente</string>
+    <string name="add_training">Crear entreno</string>
+    <string name="recovery_password_info">Te enviaremos un enlace al email de tu cuenta donde podrás cambiar tu contraseña por una nueva.</string>
+    <string name="message_sent">Mensaje enviado</string>
+    <string name="wait_please">Espera por favor...</string>
+    <string name="Delete_Account">Borrar Cuenta</string>
+    <string name="change">Cambiar</string>
+
+    <string-array name="trainers_array">
+        <item>Raúl</item>
+        <item>Álvaro</item>
+        <item>Ninguno</item>
+    </string-array>
+
+    <string name="exit_warning"></string>
+    <string name="title_activity_slide_menu">SlideMenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
