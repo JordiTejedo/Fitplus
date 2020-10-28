@@ -22,6 +22,10 @@
           <option name="url" value="https://sensingcontrol.visualstudio.com/FoxGuardian/_git/FoxGuardian%20Android" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://sensingcontrol.visualstudio.com/Bandalux/_git/Bandalux-android" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/workspace" />
