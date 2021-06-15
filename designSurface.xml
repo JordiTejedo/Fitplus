@@ -4,7 +4,10 @@
       <map>
         <entry key="app/src/main/res/drawable/dooya_motor_method.xml" value="0.16614583333333333" />
         <entry key="app/src/main/res/drawable/dooya_remote_control_method.xml" value="0.16614583333333333" />
-        <entry key="app/src/main/res/layout/fragment_link_dooya.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_link_dooya.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/fragment_link_somfy.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/fragment_somfy_preferred_position.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/fragment_unlink_somfy.xml" value="0.18885869565217392" />
       </map>
     </option>
   </component>
