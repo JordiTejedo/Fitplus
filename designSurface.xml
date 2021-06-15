@@ -1,0 +1,10 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/dooya_motor_method.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_link_dooya.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+</application>
